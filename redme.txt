@@ -1,0 +1,6 @@
+install lib:
+1)vosk
+2)pyaudio
+3)json 
+4)pyttsx3
+5)webbrowser

@@ -1,0 +1,26 @@
+config = {
+    "intents": {
+        "greeting": {
+            "examples": ["привет","хай","хэллоу"],
+            "responses": play_greetings
+        },
+        "farewell": {
+            "examples": ["завершение","завершения","завершении","завершить"
+                         ],
+            "responses": play_farewell_and_quit
+        },
+        "google_search": {
+            "examples": ["найди в гугл","найди","поищи","найти"],
+            "responses": search_for_term_on_google
+        },
+        "youtube_search": {
+            "examples": ["найди видео", "покажи видео","видео"],
+            "responses": search_for_video_on_youtube
+        }
+        
+        
+
+    },
+
+    "failure_phrases": play_failure_phrase
+}
